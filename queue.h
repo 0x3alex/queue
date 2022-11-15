@@ -13,7 +13,7 @@
         struct s_queue_##suffix *ptr_next; \
     } queue_##suffix;\
 \
-    queue_##suffix *new_queue_##suffix(int amount_of_values,...) { \
+    queue_##suffix *new_queue_##suffix(const unsigned int amount_of_values,...) { \
         if(amount_of_values < 1) return NULL; \
         va_list argp; \
         va_start(argp,amount_of_values); \
