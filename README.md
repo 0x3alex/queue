@@ -1,7 +1,7 @@
 # queue
 generic queue implementation in c
 
-The pointer, which is set, after calling 
+The pointer, which is set, when calling 
 ```c
 new_queue_...
 ````
